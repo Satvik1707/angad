@@ -1,0 +1,318 @@
+@import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap");
+
+.navbar-brand {
+  margin-left: 10px;
+  color: white !important;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.bg-light {
+  background-color: #dc3545b8 !important;
+}
+
+.nav.navbar-nav.navbar-right li a {
+  color: white !important;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: white !important;
+}
+
+.navbar-collapse {
+  margin-left: 60px;
+}
+
+.logo-img {
+  margin: 0px 10px 0px 0px;
+  width: 40px;
+  /* border-radius: 50%; */
+  overflow: hidden;
+}
+
+/* signup css */
+
+.signup {
+  margin: 120px auto;
+  width: 700px;
+  height: 450px;
+  /* border: 2px solid; */
+}
+
+.signupform {
+  /* border: 2px solid; */
+  float: left;
+  width: 300px;
+  margin-left: 30px;
+}
+
+.form-title {
+  font-family: "Grand Hotel", cursive;
+  margin-top: 20px;
+  font-size: 2.5rem;
+}
+
+.register-name {
+  height: 300px;
+  margin-top: 20px;
+}
+
+.form-group {
+  height: 75px;
+  display: grid;
+  margin-bottom: 10px;
+}
+
+.form-submit {
+  border: white;
+  height: 35px;
+  margin-top: 5px;
+  border-radius: 4px;
+  width: 80px;
+}
+
+.signupimage {
+  /* border: 2px solid; */
+  float: right;
+  margin-top: 120px;
+}
+
+.sidepic {
+  width: 240px;
+  height: 180px;
+}
+
+.side-link {
+  color: #866cb2;
+  font-family: "Grand Hotel", cursive;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+/* login css */
+
+.login {
+  margin: 120px auto;
+  width: 700px;
+  height: 450px;
+  /* border: 2px solid; */
+}
+
+.loginimage {
+  float: left;
+  margin-top: 90px;
+  margin-left: 20px;
+}
+
+.leftpic {
+  width: 240px;
+  height: 200px;
+}
+
+.loginform {
+  float: right;
+  width: 300px;
+  margin-top: 20px;
+}
+
+.loginform-title {
+  font-family: "Grand Hotel", cursive;
+  font-size: 2.5rem;
+  margin-top: 10px;
+}
+
+.login-name {
+  height: 300px;
+  margin-top: 25px;
+}
+
+.loginform-submit {
+  border: white;
+  border-radius: 3px;
+  height: 35px;
+  width: 75px;
+  margin-top: 5px;
+}
+
+/* contact css */
+.contact_info {
+  margin: 60px 60px 60px 60px;
+  align-items: center;
+}
+
+.contact {
+  width: 749px;
+  height: 470px;
+  margin: 60px auto;
+}
+
+/* .contact_info_item {
+  width: 430px;
+} */
+
+.icon_image {
+  width: 35px;
+  height: 35px;
+  margin-top: 10px;
+}
+
+.contact_info_content {
+  margin-left: 20px;
+  font-size: 0.82rem;
+  width: 200px;
+}
+
+.contact_info_title {
+  font-size: 1rem;
+}
+
+.col-lg-10 {
+  width: 100%;
+}
+
+.contact-title {
+  font-family: "Grand Hotel", cursive;
+  margin-top: 9px;
+  font-size: 2.5rem;
+}
+
+.group {
+  height: 260px;
+}
+
+.contact-group {
+  width: fit-content;
+  float: left;
+  margin-left: 20px;
+}
+
+.text_field {
+  width: 600px;
+  height: 170px;
+  margin-top: 20px;
+}
+
+.contact-submit {
+  border: white;
+  border-radius: 3px;
+  height: 35px;
+  width: 150px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+/* .form-button {
+  margin-top: 60px;
+} */
+
+/* .contact-name {
+  border: 2px solid;
+  height: 329px;
+} */
+
+/* .container_fluid {
+  width: 400px;
+} */
+
+/* .contact_info_item {
+  width: 200px;
+  height: 80px;
+  border: 2px solid;
+} */
+
+.contact_info_item {
+  justify-content: start;
+  align-items: center;
+  width: 350px;
+  margin: 20px;
+}
+
+/* home css */
+.home-page {
+  background-image: url("../src/images/body.jpg");
+  height: 733px;
+}
+
+.home-div {
+  text-align: center;
+}
+
+.pt-5 {
+  padding-top: 20rem !important;
+  color: white;
+}
+
+.text {
+  font-size: 70px !important;
+  font-family: "Grand Hotel", cursive;
+}
+
+/* about css */
+
+.about {
+  margin: 100px auto;
+  width: 800px;
+  height: 468px;
+}
+
+.container {
+  width: 680px;
+  margin-top: 10px;
+  height: 445px;
+}
+
+.profile {
+  width: 160px;
+  height: 160px;
+  border: 0.5px solid;
+}
+.profile-head h6 {
+  color: #0d6efd;
+}
+
+.col-md-4 {
+  width: 29%;
+}
+
+.col-md-6 {
+  width: 53%;
+}
+
+.col-md-2 {
+  width: 18%;
+}
+
+.nav-tabs {
+  border-bottom: 1px solid var(--bs-blue);
+}
+a#home-tab.nav-link.active {
+  border: 3px solid;
+  border-color: #0d6efd85 #0d6efd85 var(--bs-white);
+}
+a#profile-tab.nav-link.active {
+  border: 3px solid;
+  border-color: #0d6efd85 #0d6efd85 var(--bs-white);
+}
+
+.profile-work {
+  margin-top: -1px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.abs {
+  margin-top: 20px;
+}
+
+.top {
+  margin-top: 25px;
+}
+
+.right_side {
+  color: blue;
+}
